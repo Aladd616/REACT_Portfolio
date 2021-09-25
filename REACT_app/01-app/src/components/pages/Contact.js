@@ -1,10 +1,10 @@
 import React from "react";
-import { Card, Button, Form } from "react-bootstrap";
+import { Button, Form } from "react-bootstrap";
 
 export default function Contact() {
   return (
     <div>
-      <h1>ContactPage</h1>
+      <h1>Contact</h1>
       <Form>
         <Form.Group className="mb-3" controlId="contact-Form">
           <Form.Label>Name</Form.Label>
