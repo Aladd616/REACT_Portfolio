@@ -6,18 +6,25 @@ export default function Contact() {
     <div>
       <h1>ContactPage</h1>
       <Form>
-        <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+        <Form.Group className="mb-3" controlId="contact-Form">
           <Form.Label>Name</Form.Label>
           <Form.Control placeholder="Full Name" />
         </Form.Group>
-        <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+        <Form.Group className="mb-3" controlId="contact-Form">
           <Form.Label>Email address</Form.Label>
           <Form.Control type="email" placeholder="name@example.com" />
         </Form.Group>
-        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-          <Form.Label>Example textarea</Form.Label>
-          <Form.Control as="textarea" rows={3} />
+        <Form.Group className="mb-3" controlId="contact-Form">
+          <Form.Label>Comment</Form.Label>
+          <Form.Control
+            as="textarea"
+            placeholder="Comment"
+            style={{ height: "150px" }}
+          />
         </Form.Group>
+        <Button variant="primary" type="submit">
+          Submit
+        </Button>
       </Form>
     </div>
   );
