@@ -1,5 +1,5 @@
 import React from "react";
-import Projects from "../Project";
+// import Projects from "../Project";
 
 const Portfolio = () => {
     const projectInfo = {
@@ -12,4 +12,4 @@ const Portfolio = () => {
     )
 };
 
-export default Portfolio;
+// export default Portfolio;
