@@ -1,6 +1,7 @@
 import React from "react";
 import { Card, Button } from "react-bootstrap";
 
+// array of objects for the portfolio page
 const projects = [
   {
     id: 1,
@@ -48,6 +49,7 @@ const projects = [
   },
 ];
 
+// function that uses map functino to dynamical generate cards from the contents of the project array
 const cardList = () => {
   return projects.map((project) => {
     return (

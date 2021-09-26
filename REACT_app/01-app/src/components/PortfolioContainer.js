@@ -1,3 +1,4 @@
+// import of relevant components
 import React, { useState } from "react";
 import NavTabs from "./NavTabs";
 import Portfolio from "./pages/Projects";
@@ -9,7 +10,7 @@ import Header from "./Header";
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("About");
-
+  // checks value of current page and renders the component based on that value
   const renderPage = () => {
     if (currentPage === "About") {
       return <About />;
@@ -28,9 +29,8 @@ export default function PortfolioContainer() {
   return (
     <div>
       <Header />
-      {/* We are passing the currentPage from state and the function to update it */}
+      {/* passes the currentPage [from state as well as the function to update it*/}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
       <Footer />
     </div>

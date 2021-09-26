@@ -5,6 +5,7 @@ function Resume() {
   return (
     <div>
       <Nav className="me-auto">
+        {/* link to download the resume */}
         <Nav.Link href="https://drive.google.com/uc?export=download&id=1ym11KiC5FsAlLmcc8h9bE8sZ7zgEYKQn">
           Download Resume
         </Nav.Link>

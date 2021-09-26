@@ -1,5 +1,6 @@
 import React from "react";
 
+// function that handles the changing of the currentpage within the navbar
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs">

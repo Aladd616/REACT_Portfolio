@@ -1,6 +1,7 @@
 import React from "react";
 import { Button, Form } from "react-bootstrap";
 
+// form for contact page
 export default function Contact() {
   return (
     <div>
@@ -29,4 +30,3 @@ export default function Contact() {
     </div>
   );
 }
-
