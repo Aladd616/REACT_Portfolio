@@ -3,13 +3,16 @@ import { Container, Navbar, Nav } from "react-bootstrap";
 
 function Footer() {
   return (
-    <Navbar bg="light" variant="light">
+    <Navbar fixed="bottom" bg="light" variant="light">
       <Container>
-        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
         <Nav className="me-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#features">Features</Nav.Link>
-          <Nav.Link href="#pricing">Pricing</Nav.Link>
+          <Nav.Link href="https://www.linkedin.com/in/allen-ladd-0b2743a0/">
+            Linkedin
+          </Nav.Link>
+          <Nav.Link href="https://github.com/Aladd616">GitHub</Nav.Link>
+          <Nav.Link href="https://www.facebook.com/allen.ladd.9/">
+            Facebook
+          </Nav.Link>
         </Nav>
       </Container>
     </Navbar>
